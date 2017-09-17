@@ -3,32 +3,29 @@ import React, {Component} from 'react';
 class Header extends Component {
   render() {
     return (
-      <header class="intro-header">
-        <div class="container">
-          <div class="intro-message">
-            <h1>Landing Page</h1>
-            <h3>A Template by Start Bootstrap</h3>
-            <ul class="list-inline intro-social-buttons">
-              <li class="list-inline-item">
-                <a href="#" class="btn btn-secondary btn-lg">
-                  {/* <i class="fa fa-twitter fa-fw"></i> */}
-                  <span class="network-name">Twitter</span>
-                </a>
-              </li>
-              <li class="list-inline-item">
-                <a href="#" class="btn btn-secondary btn-lg">
-                  {/* <i class="fa fa-github fa-fw"></i> */}
-                  <span class="network-name">Github</span>
-                </a>
-              </li>
-              <li class="list-inline-item">
-                <a href="#" class="btn btn-secondary btn-lg">
-                  {/* <i class="fa fa-linkedin fa-fw"></i> */}
-                  <span class="network-name">Linkedin</span>
-                </a>
-              </li>
-            </ul>
+      <header className="intro-header">
+        <div className="container">
+          <div className="intro-message">
+            <div className="container"></div>
+            <h3>Points!</h3>
+            <a href="#" className="btn btn-secondary btn-lg">
+              <span className="network-name">Redeem cool prizes</span>
+            </a>
+
           </div>
+          <div className="container">
+              <a href="#" className="btn btn-secondary btn-lg ">
+                <span className="network-name">Schedule</span>
+              </a>
+              <a href="#" className="btn btn-secondary btn-lg ">
+                <span className="network-name">Social</span>
+              </a>
+              <a href="#" className="btn btn-secondary btn-lg ">
+                <span className="network-name">Progress</span>
+              </a>
+
+            </div>
+
         </div>
       </header>
     );
